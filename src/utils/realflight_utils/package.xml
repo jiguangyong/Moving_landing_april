@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>realflight_utils</name>
+  <version>1.0.0</version>
+  <description>The plugins packages of realflight </description>
+
+  <maintainer email="hrm@todo.todo">hrm</maintainer>
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>quadrotor_msgs</build_depend>
+  <!-- <build_depend>chcnav</build_depend> -->
+  <build_depend>nodelet</build_depend>
+  <build_depend>car_odom_server</build_depend>
+  <build_export_depend>quadrotor_msgs</build_export_depend>
+  <!-- <build_export_depend>chcnav</build_export_depend> -->
+  <build_export_depend>car_odom_server</build_export_depend>
+  <exec_depend>quadrotor_msgs</exec_depend>
+  <!-- <exec_depend>chcnav</exec_depend> -->
+  <exec_depend>nodelet</exec_depend>
+  <exec_depend>car_odom_server</exec_depend>
+  <depend>roscpp</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+      <nodelet plugin="${prefix}/rcinremap_plugins.xml"/>
+      <nodelet plugin="${prefix}/trajals_plugins.xml"/>
+      <nodelet plugin="${prefix}/odomremap_plugins.xml"/>
+
+  </export>
+</package>

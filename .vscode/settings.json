@@ -1,0 +1,37 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/rose/su17_land_ws/devel/lib/python3/dist-packages",
+        "/home/rose/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/rose/su17_land_ws/devel/lib/python3/dist-packages",
+        "/home/rose/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "cmake.sourceDirectory": "/home/rose/Moving_landing/src/planning",
+    "files.associations": {
+        "core": "cpp",
+        "dense": "cpp",
+        "iostream": "cpp",
+        "geometry": "cpp",
+        "vector": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "ranges": "cpp",
+        "*.ipp": "cpp",
+        "array": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "any": "cpp",
+        "string_view": "cpp",
+        "rope": "cpp",
+        "slist": "cpp",
+        "span": "cpp",
+        "regex": "cpp",
+        "type_traits": "cpp",
+        "numericaldiff": "cpp"
+    }
+}
